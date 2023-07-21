@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Least time travel path project</title>
+    <title>Shortest Travel Path Generator</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
-	<a href="https://github.com/prateeksawhney97/Travel-Plan-App-Using-Graphs" target="_blank"><p>Fork me on GitHub<p></a>
-        Least time travel path project
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: rgb(210, 124, 67);">
+	<a href="https://github.com/prateeksawhney97/Travel-Plan-App-Using-Graphs" target="_blank"><p><p></a>
+        Shortest Travel Path Generator
 
     </nav>
     <div id="container">
@@ -27,9 +27,8 @@
             <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
             </span>
             <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
-                Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
-                Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
-                Click on solve to get Solution !!
+                Red -> Bus Travel Time : <i class="fa fa-bus" aria-hidden="true" style="color: red"></i><br>
+                Green -> Flight Travel Time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
             </span>
             <div id="mynetwork2" style="display: none"></div>
         </div>
@@ -37,7 +36,7 @@
 
     <div>
         <br>
-        <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+        <button type="button" class="btn btn-danger" id="generate-graph">New Problem</button>
         <br>
         <button type="button" class="btn btn-success" id="solve">Solve</button>
     </div>
