@@ -1,7 +1,3 @@
-/**
- * Created by aarnavjindal on 19/03/20.
- */
-
 onload = function () {
     // create a network
     const container = document.getElementById('container');
